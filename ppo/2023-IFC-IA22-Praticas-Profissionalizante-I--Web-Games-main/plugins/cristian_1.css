@@ -1,0 +1,54 @@
+header, footer{
+    background-color: transparent;
+    height: 0;
+}
+
+main{
+    background-image: url(imagens/gorillaz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.text{
+    background-color: rgba(137, 43, 226, 0.397);
+}
+
+/* CURSOR */
+
+main div.text p>*>.current {
+    background-color: #ad45b1b0;
+    color: rgb(92, 8, 189);
+  }
+  
+  /* WORD */
+  
+  main div.text p>.wrong {
+    border-bottom: 2px solid #924f57;
+  }
+  
+  main div.text p>.correct {
+    border-bottom: 2px solid lightgreen;
+  }
+  
+  /* LETTER */
+  
+  main div.text p>*>* {
+    color: #3afa84;
+  }
+  
+  main div.text p>*>.wrong {
+    background-color: #924f57c0;
+    color: black;
+  }
+  
+  main div.text p>*>.correct {
+    background-color: rgba(0, 128, 0, 0.74);
+    color: black;
+  }
+  
+  footer {
+    height: 5rem;
+    background: rgba(255, 255, 255, .1);
+  }
